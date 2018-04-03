@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 297:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginuserPageModule", function() { return LoginuserPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loginuser__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loginuser__ = __webpack_require__(305);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var LoginuserPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 306:
+/***/ 305:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -139,7 +139,7 @@ var LoginuserPage = /** @class */ (function () {
     };
     LoginuserPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-loginuser',template:/*ion-inline-start:"C:\Users\rboulanger\Desktop\WeModels\src\pages\loginuser\loginuser.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Log In</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n    <div style="margin-top:15px;background-color:#3B5998; color:white; " class="button" (tap)="loginWithFB()">LogIn with Facebook</div>\n    \n    <div class="ormail">or</div>\n\n    <form (ngSubmit)="login()" #registerForm="ngForm">\n\n    <div class="inputDiv">\n      <ion-icon ios="ios-mail-open-outline" md="ios-mail-open-outline"></ion-icon>\n      <input class="inputTA" type="text" name="test" placeholder="E-Mail" [(ngModel)]="user.email" required>\n    </div>\n\n    <div class="inputDiv">\n        <ion-icon ios="ios-backspace" md="md-backspace"></ion-icon>\n        <input class="inputTA" type="password" name="test" placeholder="Password" [(ngModel)]="user.password" required>\n    </div>\n\n  <!--  <div style="margin-top:20px;background-color:#54e410;width:50%; color:white; " class="button" (tap)="login()">LogIn</div>-->\n  <button style="margin-top:20px;background-color:white;width:50%; color:#222B38; " class="button" type="submit" [disabled]="!registerForm.form.valid">Login</button>\n    </form>\n    \n    <div class="conditions">Password Forgetten ?</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\rboulanger\Desktop\WeModels\src\pages\loginuser\loginuser.html"*/,
+            selector: 'page-loginuser',template:/*ion-inline-start:"C:\Users\Rboulanger\NewWeMo\src\pages\loginuser\loginuser.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Log In</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n    <div style="margin-top:15px;background-color:#3B5998; color:white; " class="button" (tap)="loginWithFB()">LogIn with Facebook</div>\n    \n    <div class="ormail">or</div>\n\n    <form (ngSubmit)="login()" #registerForm="ngForm">\n\n    <div class="inputDiv">\n      <ion-icon ios="ios-mail-open-outline" md="ios-mail-open-outline"></ion-icon>\n      <input class="inputTA" type="text" name="test" placeholder="E-Mail" [(ngModel)]="user.email" required>\n    </div>\n\n    <div class="inputDiv">\n        <ion-icon ios="ios-backspace" md="md-backspace"></ion-icon>\n        <input class="inputTA" type="password" name="test" placeholder="Password" [(ngModel)]="user.password" required>\n    </div>\n\n  <!--  <div style="margin-top:20px;background-color:#54e410;width:50%; color:white; " class="button" (tap)="login()">LogIn</div>-->\n  <button style="margin-top:20px;background-color:white;width:50%; color:#222B38; " class="button" type="submit" [disabled]="!registerForm.form.valid">Login</button>\n    </form>\n    \n    <div class="conditions">Password Forgetten ?</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Rboulanger\NewWeMo\src\pages\loginuser\loginuser.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
